@@ -4,8 +4,7 @@ class Solution(object):
     	for x in range(len(nums)): 
     		for y in range(1, len(nums)): 
     			if nums[x] + nums[y] == target: 
-    				l1.add(x)
-    				l1.add(y)
+    				l1.add(x), l1.add(y)
 
     	return list(l1)
 
